@@ -1,0 +1,31 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "express-boilerplate",
+        "version": "0.0.1"
+    },
+    "host": "express-boilerplate",
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            },
+            "basicAuth": {
+                "type": "http",
+                "scheme": "basic"
+            }
+        }
+    },
+    "tags": [],
+    "paths": {
+        "/": {
+            "get": {
+                "summary": "API check",
+                "description": "API check",
+                "operationId": "apiCheck"
+            }
+        }
+    }
+}
