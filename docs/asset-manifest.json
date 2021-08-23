@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.11ef5bd1.chunk.css",
-    "main.js": "/static/js/main.ab90856e.chunk.js",
-    "main.js.map": "/static/js/main.ab90856e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ca171706.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ca171706.js.map",
-    "static/css/2.1e14391e.chunk.css": "/static/css/2.1e14391e.chunk.css",
-    "static/js/2.a2aa73bd.chunk.js": "/static/js/2.a2aa73bd.chunk.js",
-    "static/js/2.a2aa73bd.chunk.js.map": "/static/js/2.a2aa73bd.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.1e14391e.chunk.css.map": "/static/css/2.1e14391e.chunk.css.map",
-    "static/css/main.11ef5bd1.chunk.css.map": "/static/css/main.11ef5bd1.chunk.css.map",
-    "static/js/2.a2aa73bd.chunk.js.LICENSE.txt": "/static/js/2.a2aa73bd.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
-    "static/media/logo.1e29a291.svg": "/static/media/logo.1e29a291.svg"
+    "main.css": "/js-project-wizard/static/css/main.11ef5bd1.chunk.css",
+    "main.js": "/js-project-wizard/static/js/main.a8c7fb33.chunk.js",
+    "main.js.map": "/js-project-wizard/static/js/main.a8c7fb33.chunk.js.map",
+    "runtime-main.js": "/js-project-wizard/static/js/runtime-main.403f678a.js",
+    "runtime-main.js.map": "/js-project-wizard/static/js/runtime-main.403f678a.js.map",
+    "static/css/2.9d431d93.chunk.css": "/js-project-wizard/static/css/2.9d431d93.chunk.css",
+    "static/js/2.a2aa73bd.chunk.js": "/js-project-wizard/static/js/2.a2aa73bd.chunk.js",
+    "static/js/2.a2aa73bd.chunk.js.map": "/js-project-wizard/static/js/2.a2aa73bd.chunk.js.map",
+    "index.html": "/js-project-wizard/index.html",
+    "static/css/2.9d431d93.chunk.css.map": "/js-project-wizard/static/css/2.9d431d93.chunk.css.map",
+    "static/css/main.11ef5bd1.chunk.css.map": "/js-project-wizard/static/css/main.11ef5bd1.chunk.css.map",
+    "static/js/2.a2aa73bd.chunk.js.LICENSE.txt": "/js-project-wizard/static/js/2.a2aa73bd.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/js-project-wizard/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/logo.1e29a291.svg": "/js-project-wizard/static/media/logo.1e29a291.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca171706.js",
-    "static/css/2.1e14391e.chunk.css",
+    "static/js/runtime-main.403f678a.js",
+    "static/css/2.9d431d93.chunk.css",
     "static/js/2.a2aa73bd.chunk.js",
     "static/css/main.11ef5bd1.chunk.css",
-    "static/js/main.ab90856e.chunk.js"
+    "static/js/main.a8c7fb33.chunk.js"
   ]
 }
