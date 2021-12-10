@@ -37,9 +37,9 @@ class App {
 
         if (process.env.NODE_ENV !== 'production') {
             swaggerDocument.info.version = '0.0.1';
-            swaggerDocument.info.title = process.env.EXPRESS_APP_NAME || 'express-app-swagger';
+            swaggerDocument.info.title = process.env.EXPRESS_APP_NAME;
             //@ts-ignore
-            swaggerDocument.host = process.env.EXPRESS_APP_BASE_URL || `http://localhost:${process.env.PORT}/api/`;
+            swaggerDocument.host = process.env.EXPRESS_APP_BASE_URL ;
             this.app.use('/api/swagger', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
         }
 
