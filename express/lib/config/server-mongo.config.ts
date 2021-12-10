@@ -14,15 +14,27 @@ class App {
     private mongoConnection = new MongoConnection();
 
     constructor() {
+        this.initiate()
         this.setConfig();
         initiateRoutes(this.app);
     }
 
+    // initiators
+    private async initiate() {
+        console.log('Initializing the server...');
+
+        try {
+            const env = dotenv.config();
+            dotenvExpand(env);
+            await this.mongoConnection.connect();
+        } catch (error) {
+            console.error('An error occurred while initiating data', error);
+            process.exit(1);
+        }
+    }
+
     private setConfig(): void {
-        const env = dotenv.config();
-        dotenvExpand(env);
         this.app = express();
-        this.mongoConnection.connect();
         this.app.use(express.json({ limit: '25mb' }));
         this.app.use(express.urlencoded({ extended: false, limit: '25mb' }));
 
