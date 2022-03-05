@@ -5,13 +5,11 @@ const PORT = process.env.PORT || 8200;
 
 process.on('uncaughtException', (err) => {
     console.log('UNCAUGHT EXCEPTION! Shutting down...');
-    console.log(err.name, '/n');
-    console.log(err.message, '/n');
-    console.log(err.stack, '/n');
+    console.log(JSON.stringify(err));
     process.exit(1);
 });
 
-app.use(new GlobalErrorHandler().handler);
+app.use(GlobalErrorHandler);
 
 app.listen(PORT, () => {
     console.log(`API is listening on port ${PORT}`);

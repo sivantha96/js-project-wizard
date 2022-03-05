@@ -5,7 +5,7 @@ import { notFoundErrorResponse } from './services/response.service';
 export class CommonRoutes {
     public route(app: Application) {
         app.get('/', (req: Request, res: Response) => {
-            res.send(`Hello from ${process.env.EXPRESS_APP_NAME}`);
+            res.send(`Hello from ${process.env.EXPRESS_APP_NAME || process.env.npm_package_name || 'Express App'}`);
         });
 
         app.all('*', (req, res) => {
